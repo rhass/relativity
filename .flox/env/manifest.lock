@@ -1,0 +1,322 @@
+{
+  "lockfile-version": 1,
+  "manifest": {
+    "version": 1,
+    "install": {
+      "marp-cli": {
+        "pkg-path": "marp-cli"
+      },
+      "marp-vscode": {
+        "pkg-path": "vscode-extensions.marp-team.marp-vscode"
+      },
+      "vscode-fhs": {
+        "pkg-path": "vscode-fhs",
+        "systems": [
+          "aarch64-linux",
+          "x86_64-linux"
+        ]
+      }
+    },
+    "hook": {},
+    "profile": {},
+    "options": {}
+  },
+  "packages": [
+    {
+      "attr_path": "marp-cli",
+      "broken": false,
+      "derivation": "/nix/store/nzkpn3fnbr5c47d1zvmaph18j7s1xx1f-marp-cli-4.2.0.drv",
+      "description": "About A CLI interface for Marp and Marpit based converters",
+      "install_id": "marp-cli",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9807714d6944a957c2e036f84b0ff8caf9930bc0",
+      "name": "marp-cli-4.2.0",
+      "pname": "marp-cli",
+      "rev": "9807714d6944a957c2e036f84b0ff8caf9930bc0",
+      "rev_count": 826938,
+      "rev_date": "2025-07-08T14:16:20Z",
+      "scrape_date": "2025-07-10T05:14:32.868133Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "4.2.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/gqa9cydrrgilswg94dsrjky1kihwmn98-marp-cli-4.2.0"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "marp-cli",
+      "broken": false,
+      "derivation": "/nix/store/bmn86qq13pf9aha0zi4sb31wxn55dk63-marp-cli-4.2.0.drv",
+      "description": "About A CLI interface for Marp and Marpit based converters",
+      "install_id": "marp-cli",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9807714d6944a957c2e036f84b0ff8caf9930bc0",
+      "name": "marp-cli-4.2.0",
+      "pname": "marp-cli",
+      "rev": "9807714d6944a957c2e036f84b0ff8caf9930bc0",
+      "rev_count": 826938,
+      "rev_date": "2025-07-08T14:16:20Z",
+      "scrape_date": "2025-07-10T05:34:59.084877Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "4.2.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/9ylrk9r7p34b375fppviy5mppsl18ymz-marp-cli-4.2.0"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "marp-cli",
+      "broken": false,
+      "derivation": "/nix/store/n391lamrcqgggk68124d27qjiwcqv4ci-marp-cli-4.2.0.drv",
+      "description": "About A CLI interface for Marp and Marpit based converters",
+      "install_id": "marp-cli",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9807714d6944a957c2e036f84b0ff8caf9930bc0",
+      "name": "marp-cli-4.2.0",
+      "pname": "marp-cli",
+      "rev": "9807714d6944a957c2e036f84b0ff8caf9930bc0",
+      "rev_count": 826938,
+      "rev_date": "2025-07-08T14:16:20Z",
+      "scrape_date": "2025-07-10T05:53:51.230908Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "4.2.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/llywjyqq9m839yavskrnll9ryp1r87jp-marp-cli-4.2.0"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "marp-cli",
+      "broken": false,
+      "derivation": "/nix/store/id2dikgwjvbja2ac8247dqr2bp1jb355-marp-cli-4.2.0.drv",
+      "description": "About A CLI interface for Marp and Marpit based converters",
+      "install_id": "marp-cli",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9807714d6944a957c2e036f84b0ff8caf9930bc0",
+      "name": "marp-cli-4.2.0",
+      "pname": "marp-cli",
+      "rev": "9807714d6944a957c2e036f84b0ff8caf9930bc0",
+      "rev_count": 826938,
+      "rev_date": "2025-07-08T14:16:20Z",
+      "scrape_date": "2025-07-10T06:15:35.240139Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "4.2.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/qr74mw72d4qx1bjz20j7zsjw5aqb6wh4-marp-cli-4.2.0"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "vscode-extensions.marp-team.marp-vscode",
+      "broken": false,
+      "derivation": "/nix/store/2hbajxss4mzcsmnrvwxzsgs05bvdfq1x-vscode-extension-marp-team-marp-vscode-3.2.0.drv",
+      "install_id": "marp-vscode",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9807714d6944a957c2e036f84b0ff8caf9930bc0",
+      "name": "vscode-extension-marp-team-marp-vscode-3.2.0",
+      "pname": "marp-vscode",
+      "rev": "9807714d6944a957c2e036f84b0ff8caf9930bc0",
+      "rev_count": 826938,
+      "rev_date": "2025-07-08T14:16:20Z",
+      "scrape_date": "2025-07-10T05:15:33.889205Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.2.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/3mpzwd44l1lcq4snx7ykf062qdgq39mv-vscode-extension-marp-team-marp-vscode-3.2.0"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "vscode-extensions.marp-team.marp-vscode",
+      "broken": false,
+      "derivation": "/nix/store/dy1y395c09m16dzyizzslvgg1xmwqpnj-vscode-extension-marp-team-marp-vscode-3.2.0.drv",
+      "install_id": "marp-vscode",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9807714d6944a957c2e036f84b0ff8caf9930bc0",
+      "name": "vscode-extension-marp-team-marp-vscode-3.2.0",
+      "pname": "marp-vscode",
+      "rev": "9807714d6944a957c2e036f84b0ff8caf9930bc0",
+      "rev_count": 826938,
+      "rev_date": "2025-07-08T14:16:20Z",
+      "scrape_date": "2025-07-10T05:36:26.691110Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.2.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/86q85nz056wnisf6c0bwnzif3j5jbifn-vscode-extension-marp-team-marp-vscode-3.2.0"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "vscode-extensions.marp-team.marp-vscode",
+      "broken": false,
+      "derivation": "/nix/store/8gng6v4n4hcbnqpniaiaql88rx7w3z6b-vscode-extension-marp-team-marp-vscode-3.2.0.drv",
+      "install_id": "marp-vscode",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9807714d6944a957c2e036f84b0ff8caf9930bc0",
+      "name": "vscode-extension-marp-team-marp-vscode-3.2.0",
+      "pname": "marp-vscode",
+      "rev": "9807714d6944a957c2e036f84b0ff8caf9930bc0",
+      "rev_count": 826938,
+      "rev_date": "2025-07-08T14:16:20Z",
+      "scrape_date": "2025-07-10T05:54:52.849093Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.2.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/78wflapiqxr5h099scbn98rvff25p8jg-vscode-extension-marp-team-marp-vscode-3.2.0"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "vscode-extensions.marp-team.marp-vscode",
+      "broken": false,
+      "derivation": "/nix/store/mkhakl2k6a7r5ijgxrc80p80ddcgwkbh-vscode-extension-marp-team-marp-vscode-3.2.0.drv",
+      "install_id": "marp-vscode",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9807714d6944a957c2e036f84b0ff8caf9930bc0",
+      "name": "vscode-extension-marp-team-marp-vscode-3.2.0",
+      "pname": "marp-vscode",
+      "rev": "9807714d6944a957c2e036f84b0ff8caf9930bc0",
+      "rev_count": 826938,
+      "rev_date": "2025-07-08T14:16:20Z",
+      "scrape_date": "2025-07-10T06:17:10.824304Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.2.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/cc4idwyla05v681587hsvgnq340vqmkk-vscode-extension-marp-team-marp-vscode-3.2.0"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "vscode-fhs",
+      "broken": false,
+      "derivation": "/nix/store/0dm4py6453cb8q3fs00l87skjfvabfc6-code-1.101.2.drv",
+      "description": "Wrapped variant of vscode which launches in a FHS compatible environment.\nShould allow for easy usage of extensions without nix-specific modifications.\n",
+      "install_id": "vscode-fhs",
+      "license": "Unfree",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9807714d6944a957c2e036f84b0ff8caf9930bc0",
+      "name": "code-1.101.2",
+      "pname": "vscode-fhs",
+      "rev": "9807714d6944a957c2e036f84b0ff8caf9930bc0",
+      "rev_count": 826938,
+      "rev_date": "2025-07-08T14:16:20Z",
+      "scrape_date": "2025-07-10T05:36:27.250309Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": true,
+      "version": "1.101.2",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/high09cxgrq9scrbf64a0365hzp6p8ly-code-1.101.2"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "vscode-fhs",
+      "broken": false,
+      "derivation": "/nix/store/jb76kjd5ndh8s43zzwas3scan9qqfx5s-code-1.101.2.drv",
+      "description": "Wrapped variant of vscode which launches in a FHS compatible environment.\nShould allow for easy usage of extensions without nix-specific modifications.\n",
+      "install_id": "vscode-fhs",
+      "license": "Unfree",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9807714d6944a957c2e036f84b0ff8caf9930bc0",
+      "name": "code-1.101.2",
+      "pname": "vscode-fhs",
+      "rev": "9807714d6944a957c2e036f84b0ff8caf9930bc0",
+      "rev_count": 826938,
+      "rev_date": "2025-07-08T14:16:20Z",
+      "scrape_date": "2025-07-10T06:17:11.426622Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": true,
+      "version": "1.101.2",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/gy2rcvhj1l2bcq20bbhajd2f6gllbr73-code-1.101.2"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    }
+  ]
+}
