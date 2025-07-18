@@ -47,7 +47,7 @@ _Ascending order_
 - Started to learn how to create debian packages.
 - Performed hardware compatibility testing for various hardware vendors.
 ### Dakim
-- Transformed package build and release process
+- Transformed package build and release process.
 ### Rapid7
 - Introduced Infrastructure-as-Code and Configuration-as-Code using Chef and Terraform for building VMWare and AWS infrastructure.
 - Transformed manual Jenkins server and worker build/config into fully automated Chef cookbooks.
@@ -80,22 +80,6 @@ _Ascending order_
 <!-- _footer: "Image Source: [https://us.suunto.com](https://us.suunto.com/cdn/shop/files/4_cd2701a8-80ed-4f12-811c-a1ff45a7b20d.png?v=1719384679&width=1600)" -->
 
 ---
-## Senior Software Release Engineer, Relativity Space
-### Applicable Experience
-
-- Elastic, Senior and Principal Software Engineer
-- Chef Software, Release Engineer II
-- Rapid7, Build/Release/DevOps Engineer 
-- Dakim, Release Engineer
-- Linspire, QA Engineer
-
-A really good fit!
-
-
-![bg left:35% width:400px](marp/assets/all-the-things-meme.jpg)
-
-<!-- _footer: "Image Source: https://imgflip.com/memegenerator" -->
----
 # Project Overview
 
 ## Goals
@@ -112,7 +96,6 @@ A really good fit!
 - Must be able to support large number of globally distributed engineers.
 - Multi-language support. Scala, Python, TypeScript, Go, and Rust.
 - Must integrate with GitHub, Gradle, Buildkite, and Backstage Internal Developer Platform.
-- PoC limited to one full-time engineer. (Me)
 - Production environment must fulfill the "Production Readiness Review" requirements and get approval. ⚠️ _External dependency!_
 - Product must pass internal security review. ⚠️ _External dependency!_ 
 
@@ -150,11 +133,11 @@ HCL Broken into three modules:
   - SonarQube Shared Infra and Config between environments.
   - SonarQube Helm Chart deployment. 
 
-Dev/Test Environment:
+Dev/Test Builds:
   - Lint
   - Dry-Run
 
-Production:
+Production Build:
   - Merge to main triggers `apply` to production.
 
 ---
@@ -252,7 +235,6 @@ Version 2.0 example derived from my work: https://github.com/elastic/logstash/bl
 - Turn buildkite steps into plugin.
 - Enable public access to Elastic SonarQube for specific OpenSource projects.
 - Sync test environment after production release.
-- Migrate to SaaS.
 
 ![bg left opacity:60% width:600px](./marp/assets/starry-morning.png)
 
@@ -261,8 +243,7 @@ Version 2.0 example derived from my work: https://github.com/elastic/logstash/bl
 # What did I learn?
 - Convention over Configuration.
   - Leveraging the Internal Developer Platform templating for new projects was key to adoption.
-  - Lead by example.
-- Ownership Hand-off.
+- Ownership hand-off.
 - Depending on a vendor with a limited support contract is painful.
 - May not be the right solution for everyone.
 
@@ -271,7 +252,7 @@ Version 2.0 example derived from my work: https://github.com/elastic/logstash/bl
 ### How is the SonarQube project related to the work I'll be doing at Relativity Space?
 - Lead project plans and proposals.
 - Coordinated across multiple teams and stakeholders.
-- Created standardized CI process using Backstage Internal Developer Platform.
+- Standardized CI process leveraging Backstage Internal Developer Platform.
 - Managed releases processes.
 - Built and released binary artifacts used by entire engineering org.
 - Performed support in post-production to users.
