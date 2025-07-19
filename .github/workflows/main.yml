@@ -1,4 +1,4 @@
-.github/workflows/main.ymlname: Build and Deploy Marp Presentation
+name: Build and Deploy Marp Presentation
 
 on:
   push:
