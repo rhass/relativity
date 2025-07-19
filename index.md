@@ -275,7 +275,9 @@ Version 2.0 example derived from my work: https://github.com/elastic/logstash/bl
 # Built with GitHub Actions 😁
 
 GitHub: https://github.com/rhass/relativity
+SonarCloud: https://sonarcloud.io/project/overview?id=rhass_relativity
 ![bg right:35% width:400px](assets/github-repo-qr-code.png)
+
 
 <!-- _footer: "Github Logo Source: https://brand.github.com/foundations/logo"-->
 ---
