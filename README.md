@@ -1,6 +1,4 @@
-[![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=rhass_relativity)](https://sonarcloud.io/summary/new_code?id=rhass_relativity)
-
-![Workflows](https://github.com/rhass/relativity/actions/workflows/main.yml/badge.svg)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=rhass_relativity&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=rhass_relativity) ![Workflows](https://github.com/rhass/relativity/actions/workflows/main.yml/badge.svg)
 
 # Building
 This project uses Flox to setup a local environment. 
