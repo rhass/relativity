@@ -3,6 +3,9 @@
   "manifest": {
     "version": 1,
     "install": {
+      "act": {
+        "pkg-path": "act"
+      },
       "marp-cli": {
         "pkg-path": "marp-cli"
       },
@@ -22,6 +25,126 @@
     "options": {}
   },
   "packages": [
+    {
+      "attr_path": "act",
+      "broken": false,
+      "derivation": "/nix/store/p4x0m5049pkzf2wlaszy675x9vswlx86-act-0.2.78.drv",
+      "description": "Run your GitHub Actions locally",
+      "install_id": "act",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9807714d6944a957c2e036f84b0ff8caf9930bc0",
+      "name": "act-0.2.78",
+      "pname": "act",
+      "rev": "9807714d6944a957c2e036f84b0ff8caf9930bc0",
+      "rev_count": 826938,
+      "rev_date": "2025-07-08T14:16:20Z",
+      "scrape_date": "2025-07-10T05:14:30.053694Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.2.78",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/jlz3nqprbvmmc6ifr8j5lr9fcqyj88gv-act-0.2.78"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "act",
+      "broken": false,
+      "derivation": "/nix/store/30spspgrz6hrnqa1qr2dpwlr9ygjzmlk-act-0.2.78.drv",
+      "description": "Run your GitHub Actions locally",
+      "install_id": "act",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9807714d6944a957c2e036f84b0ff8caf9930bc0",
+      "name": "act-0.2.78",
+      "pname": "act",
+      "rev": "9807714d6944a957c2e036f84b0ff8caf9930bc0",
+      "rev_count": 826938,
+      "rev_date": "2025-07-08T14:16:20Z",
+      "scrape_date": "2025-07-10T05:34:50.016286Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.2.78",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/sxg204d6wcc9r3psmvhcwqfg73ncpwsa-act-0.2.78"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "act",
+      "broken": false,
+      "derivation": "/nix/store/h8r07dsnrgvvynn4dj3i6shdj99sh5za-act-0.2.78.drv",
+      "description": "Run your GitHub Actions locally",
+      "install_id": "act",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9807714d6944a957c2e036f84b0ff8caf9930bc0",
+      "name": "act-0.2.78",
+      "pname": "act",
+      "rev": "9807714d6944a957c2e036f84b0ff8caf9930bc0",
+      "rev_count": 826938,
+      "rev_date": "2025-07-08T14:16:20Z",
+      "scrape_date": "2025-07-10T05:53:48.366498Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.2.78",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/x79clwclnzmaxbfp1lbvm9ikrmrvwk1r-act-0.2.78"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "act",
+      "broken": false,
+      "derivation": "/nix/store/7dmninmyahnxyfvim1ca5ibmhqgw4gh5-act-0.2.78.drv",
+      "description": "Run your GitHub Actions locally",
+      "install_id": "act",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=9807714d6944a957c2e036f84b0ff8caf9930bc0",
+      "name": "act-0.2.78",
+      "pname": "act",
+      "rev": "9807714d6944a957c2e036f84b0ff8caf9930bc0",
+      "rev_count": 826938,
+      "rev_date": "2025-07-08T14:16:20Z",
+      "scrape_date": "2025-07-10T06:15:24.328296Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.2.78",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/a836y05xkna2cqwjd2y00gvcv0p1c0kh-act-0.2.78"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
     {
       "attr_path": "marp-cli",
       "broken": false,

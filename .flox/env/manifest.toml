@@ -19,6 +19,7 @@ marp-cli.pkg-path = "marp-cli"
 vscode-fhs.pkg-path = "vscode-fhs"
 vscode-fhs.systems = ["aarch64-linux", "x86_64-linux"]
 marp-vscode.pkg-path = "vscode-extensions.marp-team.marp-vscode"
+act.pkg-path = "act"
 # gum.pkg-path = "gum"
 # gum.version = "^0.14.5"
 
