@@ -29,13 +29,13 @@ jobs:
     - name: Create output directory
       run: mkdir -p dist
     
-    - name: Copy assets for Marp
-      run: |
-        mkdir -p dist/assets
-        cp -r assets/* dist/assets/
-    
     - name: Build presentation with Marp
-      run: marp --input-dir ./marp --html --output ./dist
+      run: marp index.md
+
+    - name: Stage rendered slides and assets
+      run: |
+        cp index.html dist/
+        cp -r assets dist/
 
     - name: Upload build artifacts
       if: ${{ !env.ACT }}
