@@ -1,4 +1,4 @@
-name: Build and Deploy Marp Presentation
+.github/workflows/main.ymlname: Build and Deploy Marp Presentation
 
 on:
   push:
@@ -11,6 +11,7 @@ on:
 
 jobs:
   build:
+    name: Build Slides
     runs-on: ubuntu-latest
     
     steps:
@@ -40,6 +41,7 @@ jobs:
         retention-days: 30
 
   deploy:
+    name: Deploy to GitHub Pages
     # Only run on main branch pushes (after merge)
     if: github.ref == 'refs/heads/main' && github.event_name == 'push'
     needs: build
