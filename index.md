@@ -185,6 +185,13 @@ Production Build:
 Version 2.0 example derived from my work: https://github.com/elastic/logstash/blob/main/.buildkite/pull_request_pipeline.yml#L63-L82" -->
 
 ---
+# PR Gate Example
+
+![bg vertical right width:600px](./assets/quality-gate-screenshot.png)
+![bg right width:600px](./assets//gh-required-check-screenshot.png)
+
+<!-- _footer: "Image Source: https://github.com/elastic/logstash/pull/17793" -->
+---
 <style scoped>
   section {
     font-size: 20px;
@@ -199,7 +206,7 @@ Version 2.0 example derived from my work: https://github.com/elastic/logstash/bl
 - SAML Integration with Okta.
 - Fixed a liveness check, and PR was accepted! https://github.com/SonarSource/helm-chart-sonarqube/pull/325
 ![bg left opacity:60% width:600px](./assets/starry-night.jpg)
-<!--- _footer: "Image Source:x" -->
+<!--- _footer: "Image Source: https://en.wikipedia.org/wiki/The_Starry_Night" -->
 ---
 # Retrospective
 <style scoped>
