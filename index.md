@@ -16,7 +16,7 @@ footer {
 # Building a Foundation for Quality & Release Readiness
 My SonarQube Enterprise Journey
 ![bg right:35% width:400px](assets/github-sites-qr-code.png)
-https://rhass.github.io/relativity/slides.html
+https://rhass.github.io/relativity/
 
 ---
 # About Me
