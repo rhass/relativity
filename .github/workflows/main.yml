@@ -41,7 +41,7 @@ jobs:
 
   deploy:
     # Only run on main branch pushes (after merge)
-    if: github.ref == 'refs/heads/main' && github.event_name == 'push' && !env.ACT
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
     needs: build
     runs-on: ubuntu-latest
     
