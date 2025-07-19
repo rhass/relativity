@@ -15,7 +15,7 @@ footer {
 
 # Building a Foundation for Quality & Release Readiness
 My SonarQube Enterprise Journey
-![bg right:35% width:400px](marp/assets/github-qr-code.png)
+![bg right:35% width:400px](assets/github-qr-code.png)
 
 <!-- _footer: "QR Code Link: https://github.com/rhass/relativity \nGithub Logo Source: https://brand.github.com/foundations/logo \nQR Code Source: https://qrfy.com/"-->
 ---
@@ -30,7 +30,7 @@ My SonarQube Enterprise Journey
 - 🍪 Girl Scout Dad & LNT Advocate.
 - 👷 Trail crews and cleanup of outdoor spaces.
 
-![bg left:35% opacity:60%](marp/assets/Ryan-Portrait.jpeg)
+![bg left:35% opacity:60%](assets/Ryan-Portrait.jpeg)
 
 <!-- _footer: "Image Source: © 2025 Ryan Hass. All Rights Reserved" -->
 
@@ -53,7 +53,7 @@ _Ascending order_
 - Transformed manual Jenkins server and worker build/config into fully automated Chef cookbooks.
 - Created Chef based automation for provisioning Nexpose product for QA testing in consistent and reliable manner.
 
-![bg right:35% opacity:60%](marp/assets/map-and-compass.jpeg)
+![bg right:35% opacity:60%](assets/map-and-compass.jpeg)
 
 <!-- _footer: "Image Source: [https://us.suunto.com](https://us.suunto.com/cdn/shop/files/4_cd2701a8-80ed-4f12-811c-a1ff45a7b20d.png?v=1719384679&width=1600)" -->
 
@@ -75,7 +75,7 @@ _Ascending order_
 - Integrated into Backstage Internal Developer Platform for organic adoption.
 - Jenkins to Buildkite CI migration.
 - Makefile to Gradle build migration for Cloud Platform.
-![bg right:35% opacity:60%](marp/assets/map-and-compass.jpeg)
+![bg right:35% opacity:60%](assets/map-and-compass.jpeg)
 
 <!-- _footer: "Image Source: [https://us.suunto.com](https://us.suunto.com/cdn/shop/files/4_cd2701a8-80ed-4f12-811c-a1ff45a7b20d.png?v=1719384679&width=1600)" -->
 
@@ -121,7 +121,7 @@ _Ascending order_
 ---
 # Architecture Overview
 #### Infrastructure
-![bg right height:80%](./marp/assets/sonarqube-infra.jpg)
+![bg right height:80%](./assets/sonarqube-infra.jpg)
 
 
 <!-- _footer: "Diagram created using diagrams.net by Ryan Hass.\n Inspired by SonarQube, 'Reference Architecture for Developer Edition/Enterprise Edition (up to 10 M LOC)':\n https://docs.sonarsource.com/sonarqube-server/10.8/setup-and-upgrade/reference-architectures/up-to-10m-loc/ " -->
@@ -198,7 +198,7 @@ Version 2.0 example derived from my work: https://github.com/elastic/logstash/bl
 - Coverage metrics improved over time.
 - SAML Integration with Okta.
 - Fixed a liveness check, and PR was accepted! https://github.com/SonarSource/helm-chart-sonarqube/pull/325
-![bg left opacity:60% width:600px](./marp/assets/starry-night.jpg)
+![bg left opacity:60% width:600px](./assets/starry-night.jpg)
 <!--- _footer: "Image Source:x" -->
 ---
 # Retrospective
@@ -214,7 +214,7 @@ Version 2.0 example derived from my work: https://github.com/elastic/logstash/bl
 - Scanning Kibana.
 - Okta Groups & GitHub Teams.
 - User adoption of mitigation workflow.
-![bg left opacity:60% width:600px](./marp/assets/house-on-fire.png)
+![bg left opacity:60% width:600px](./assets/house-on-fire.png)
 
 <!--- _footer: "Image Source: Google Gemini, Prompt: 'Paint a house on fire in Van Gogh style.'" -->
 
@@ -236,7 +236,7 @@ Version 2.0 example derived from my work: https://github.com/elastic/logstash/bl
 - Enable public access to Elastic SonarQube for specific OpenSource projects.
 - Sync test environment after production release.
 
-![bg left opacity:60% width:600px](./marp/assets/starry-morning.png)
+![bg left opacity:60% width:600px](./assets/starry-morning.png)
 
 <!--- _footer: "Image Source: Google Gemini, Prompt: 'Make a daytime version of the famous van gogh starry night with clouds and no moon or stars, set during daytime or sunrise.'" -->
 ---
