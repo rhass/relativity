@@ -241,7 +241,6 @@ Version 2.0 example derived from my work: https://github.com/elastic/logstash/bl
 - Backstage to address Team/Group sync.
 - Turn buildkite steps into plugin.
 - Enable public access to Elastic SonarQube for specific OpenSource projects.
-- Sync test environment after production release.
 
 ![bg left opacity:60% width:600px](./assets/starry-morning.png)
 
